@@ -1,6 +1,4 @@
-const navbar = document.querySelector(".navbar");
 const headerButtons = document.querySelectorAll(".header-btn");
-const navBtn = document.querySelectorAll(".nav-btn");
 const sobreMim = document.querySelector(".sobre-mim");
 const formacao = document.querySelector(".formacao");
 const meusProjetos = document.querySelector(".meus-projetos");
