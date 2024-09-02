@@ -148,3 +148,12 @@ form.content {
     width: 100%;
     color: #222831;
 }
+
+.submit-btn {
+    background-color: var(--gray);
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 7em;
+    height: 3em;
+    border-radius: 2em;
+}
