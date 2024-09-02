@@ -1,0 +1,122 @@
+:root {
+    --menu-padding: 0.4em;
+    --border-radius: 0.7em;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+    width: 100vw;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+
+.title {
+    font-size: 320%;
+    color: black;
+}
+
+main {
+    width: 37em;
+    height: 25em;
+    padding: 1em;
+    border-radius: var(--border-radius);
+    background-color: white;
+}
+
+.main-menu, .content, .finish {
+    width: 100%;
+    height: 100%;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.quiz-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.quiz-btn {
+    width: 6em;
+    height: 6em;
+    font-size: 1.3em;
+}
+
+.content {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.3em;
+}
+
+.content * {
+    width: 100%;
+    font-size: 1em;
+}
+
+.answer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.answer {
+    background-color: #21D4FD;
+    height: 2em;
+    padding: 0.3em;
+    padding-left: 1em;
+    border-radius: var(--border-radius);
+    text-align: left;
+}
+
+.finish {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.finish-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16em;
+    height: 5em;
+    gap: 4em;
+}
+
+.finish-buttons button {
+    display: inline;
+    width: 6em;
+    height: 4em;
+    border-radius: var(--border-radius);
+}
+
